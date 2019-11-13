@@ -1,0 +1,26 @@
+How is Maria Health’s method of loading pages better than the traditional method?
+
+Answer:
+It's faster because the logic is within the web browser rather than the server.
+Only the data is sent back and forth rather than the whole HTML.
+
+
+How is it worse?
+
+Answer:
+Search engines cannot index an AJAX application.
+Client must enable javascript.
+
+
+When should each be used over the other?
+
+Answer:
+Traditional method
+ - If application needs to run without the Javascript support.
+ - If application's client side requirements are simple and needs to perform well in search engines
+
+
+Maria Health’s method
+ - If application's client side has complex design.
+ - It's responsive and can easily be converted to mobile.
+ 

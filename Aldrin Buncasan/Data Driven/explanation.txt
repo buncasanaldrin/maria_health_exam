@@ -1,0 +1,28 @@
+a. Users should be able:
+    1. View all plans available with the details above
+        - 'plans/'
+
+    2. Instantiate new carts
+        - 'order_products/'
+
+    3. Add items to the carts
+        - 'order_products/'
+
+    4. Change the count of an item in a cart
+        - 'order_products/<int:pk>/'
+
+    5. Remove an item from the cart
+        - 'order_products/<int:pk>/'
+
+    6. See the items in a cart
+        - 'carts/<int:pk>/'
+
+    7. Pay for the cart. Just create an endpoint that when invoked, automatically marks the cart as paid
+        - 'carts/<int:pk>/'
+
+b. You can use any protocol/paradigm for your API, and you can third party libraries
+when creating the API
+    1. Describe your API and the decisions you took when designing it
+        - I used django generics.APIView, because it's more easy to use and to create REST endpoints.
+          it also provides some attributes that will help you saves a lot of time.
+
