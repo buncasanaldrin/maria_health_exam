@@ -1,3 +1,10 @@
+# GUIDELINE
+1. cd Data\ Driven/data_driven/
+
+2. python manage.py runserver
+
+---------------------------------------------------------------------------------------------------------------------
+
 a. Users should be able:
     1. View all plans available with the details above
         - 'plans/'
